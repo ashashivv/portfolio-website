@@ -37,6 +37,18 @@ h1 {
   border-bottom: 0.1875rem solid #ffff;
   color: #f3ca20 !important;
 }
+.menu-link {
+  color: #f3ca20 !important;
+  border-bottom: 0.1875rem solid #ffff;
+}
+btn:focus,
+a:focus {
+  outline: none;
+}
+.navbar-toggler:focus {
+  outline: none !important;
+  box-shadow: none;
+}
 
 /******Home*******/
 

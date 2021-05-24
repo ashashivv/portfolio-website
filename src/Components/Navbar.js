@@ -35,24 +35,44 @@ const Navbar = (props) => {
           >
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a className="nav-link " href="/">
+                <NavLink
+                  className="nav-link "
+                  to="/"
+                  exact
+                  activeClassName="menu-link"
+                >
                   Home
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link " href="/about">
+                <NavLink
+                  className="nav-link "
+                  to="/about"
+                  exact
+                  activeClassName="menu-link"
+                >
                   About Me
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/portfolio">
+                <NavLink
+                  className="nav-link"
+                  to="/portfolio"
+                  exact
+                  activeClassName="menu-link"
+                >
                   Projects
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/contact">
+                <NavLink
+                  className="nav-link"
+                  to="/contact"
+                  exact
+                  activeClassName="menu-link"
+                >
                   Contact
-                </a>
+                </NavLink>
               </li>
             </ul>
           </div>
